@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Legacy Accounting LLC</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header>
+    <!-- Navigation Bar -->
+    <nav class="main-nav" role="navigation" aria-label="Primary Navigation">
+      <div class="container nav-header">
+        <a href="#" class="logo">CPA Firm</a>
+        <button class="nav-toggle" aria-controls="nav-menu" aria-haspopup="true"
+                aria-expanded="false" aria-label="Toggle navigation">☰</button>
+      </div>
+      <ul class="nav-menu container" id="nav-menu">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#industries">Industries</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-container">
+        <h1>Welcome to Our CPA Firm</h1>
+        <p>Your trusted partner in professional accounting services.</p>
+        <a href="#contact" class="cta-button">Get in Touch</a>
+      </div>
+    </section>
+  </header>
+
+  <main id="main-content">
+    <!-- Services Section -->
+    <section id="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <p>We offer a full range of accounting and financial services tailored to your needs.</p>
+        <div class="service-list">
+          <article class="service">
+            <h3>Service One</h3>
+            <p>Brief description of Service One offered by our firm.</p>
+          </article>
+          <article class="service">
+            <h3>Service Two</h3>
+            <p>Brief description of Service Two offered by our firm.</p>
+          </article>
+          <article class="service">
+            <h3>Service Three</h3>
+            <p>Brief description of Service Three offered by our firm.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section id="industries">
+      <div class="container">
+        <h2>Industries We Serve</h2>
+        <p>Our expertise spans multiple industries, including but not limited to:</p>
+        <ul class="industries-list">
+          <li>Construction</li>
+          <li>Healthcare</li>
+          <li>Manufacturing</li>
+          <li>Real-Estate</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process">
+      <div class="container">
+        <h2>Our Process</h2>
+        <p>We follow a proven three-step process to ensure quality service:</p>
+        <ol class="process-steps">
+          <li>
+            <h3>Step 1: Initial Consultation</h3>
+            <p>We discuss your needs and gather information in an introductory meeting.</p>
+          </li>
+          <li>
+            <h3>Step 2: Strategy Development</h3>
+            <p>Our team develops a tailored financial strategy and action plan for you.</p>
+          </li>
+          <li>
+            <h3>Step 3: Implementation &amp; Follow-Up</h3>
+            <p>We implement the plan and provide ongoing support with regular check-ins.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- FAQ Section (Accordion) -->
+    <section id="faq">
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+          <h3>
+            <button id="faq-q1" class="faq-question" aria-expanded="false" 
+                    aria-controls="faq-a1">What services do you offer?</button>
+          </h3>
+          <div id="faq-a1" class="faq-answer" role="region" aria-labelledby="faq-q1" hidden>
+            <p>We offer accounting, bookkeeping, tax preparation, and financial consulting services.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3>
+            <button id="faq-q2" class="faq-question" aria-expanded="false" 
+                    aria-controls="faq-a2">What industries do you specialize in?</button>
+          </h3>
+          <div id="faq-a2" class="faq-answer" role="region" aria-labelledby="faq-q2" hidden>
+            <p>We have experience in industries such as technology startups, healthcare, retail, and more.</p>
+          </div>
+        </div>
+        <!-- Additional FAQ items can be added similarly -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form class="contact-form" action="#" method="post" novalidate>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="contact-submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-container">
+      <p>&copy; 2026 CPA Firm. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
